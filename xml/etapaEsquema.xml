@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<etapa xmlns="http://www.uniovi.es"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+    <nombre>Puçol a Xeraco</nombre>
+    <numero>8</numero>
+    <longitud_etapa unidad="km">171</longitud_etapa>
+    <fecha>2026-04-12</fecha>
+    <tiempo_ganador>03:47:06</tiempo_ganador>
+    <velocidad_media unidad="km/h">45.178</velocidad_media>
+    <desnivel unidad="m">1270</desnivel>
+
+    <lugar_salida>
+        <ciudad>Puçol</ciudad>
+        <coordenadas>
+            <longitud unidad="grados">-0.319709</longitud>
+            <latitud unidad="grados">39.588701</latitud>
+            <altitud unidad="m">14</altitud>
+        </coordenadas>
+    </lugar_salida>
+
+    <lugar_meta>
+        <ciudad>Xeraco</ciudad>
+        <coordenadas>
+            <longitud unidad="grados">-0.189943</longitud>
+            <latitud unidad="grados">39.038874</latitud>
+            <altitud unidad="m">4</altitud>
+        </coordenadas>
+    </lugar_meta>
+
+    <tipo_etapa>llana</tipo_etapa>
+
+    <referencias>
+        <referencia>https://www.pucol.es</referencia>
+        <referencia>https://www.xeraco.es</referencia>
+        <referencia>https://www.caminodelcid.org</referencia>
+        <referencia>https://www.comunitatvalenciana.com</referencia>
+    </referencias>
+
+    <galeria_fotografias>
+        <fotografia>foto1.jpg</fotografia>
+        <fotografia>foto2.jpg</fotografia>
+        <fotografia>foto3.jpg</fotografia>
+    </galeria_fotografias>
+
+    <galeria_videos>
+        <video>video1.mp4</video>
+    </galeria_videos>
+
+    <galeria_sonidos>
+        <podcast>audio1.mp3</podcast>
+    </galeria_sonidos>
+
+    <hitos>
+        <puerto_montana categoria="2a">
+            <coordenadas>
+                <longitud unidad="grados">-0.278576</longitud>
+                <latitud unidad="grados">39.002396</latitud>
+                <altitud unidad="m">383</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">149.0</distancia_salida>
+        </puerto_montana>
+    </hitos>
+
+    <puntos_anonimos>
+        <punto_anonimo>
+            <nombre_punto>Masamagrell</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.328728</longitud>
+                <latitud unidad="grados">39.567541</latitud>
+                <altitud unidad="m">14</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">2.5</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Albalat dels Sorells</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.342147</longitud>
+                <latitud unidad="grados">39.543189</latitud>
+                <altitud unidad="m">19</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">4.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.343387</longitud>
+                <latitud unidad="grados">39.537747</latitud>
+                <altitud unidad="m">16</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">5.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.347796</longitud>
+                <latitud unidad="grados">39.539459</latitud>
+                <altitud unidad="m">17</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">6.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Meliana</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.347483</longitud>
+                <latitud unidad="grados">39.528498</latitud>
+                <altitud unidad="m">13</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">8.48</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.349788</longitud>
+                <latitud unidad="grados">39.522412</latitud>
+                <altitud unidad="m">8</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">10.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.372059</longitud>
+                <latitud unidad="grados">39.538672</latitud>
+                <altitud unidad="m">27</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">14.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Moncada</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.388910</longitud>
+                <latitud unidad="grados">39.548723</latitud>
+                <altitud unidad="m">34</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">14.2</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.395811</longitud>
+                <latitud unidad="grados">39.597663</latitud>
+                <altitud unidad="m">72</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">23.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Náquera</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.429511</longitud>
+                <latitud unidad="grados">39.646227</latitud>
+                <altitud unidad="m">178</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">26.8</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Bétera</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.458373</longitud>
+                <latitud unidad="grados">39.592804</latitud>
+                <altitud unidad="m">91</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">33.6</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Riba-roja de Túria</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.565530</longitud>
+                <latitud unidad="grados">39.547915</latitud>
+                <altitud unidad="m">87</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">46.5</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Cheste</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.691034</longitud>
+                <latitud unidad="grados">39.494917</latitud>
+                <altitud unidad="m">227</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">63.3</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Montserrat</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.603141</longitud>
+                <latitud unidad="grados">39.357900</latitud>
+                <altitud unidad="m">165</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">82.9</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Carlet</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.522389</longitud>
+                <latitud unidad="grados">39.232844</latitud>
+                <altitud unidad="m">54</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">102.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.472922</longitud>
+                <latitud unidad="grados">39.251663</latitud>
+                <altitud unidad="m">34</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">112.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Algemesí</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.439449</longitud>
+                <latitud unidad="grados">39.195053</latitud>
+                <altitud unidad="m">15</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">116.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Alzira</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.437718</longitud>
+                <latitud unidad="grados">39.144720</latitud>
+                <altitud unidad="m">17</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">122.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Simat de la Valldigna</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.311654</longitud>
+                <latitud unidad="grados">39.046010</latitud>
+                <altitud unidad="m">49</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">139.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.303035</longitud>
+                <latitud unidad="grados">39.032900</latitud>
+                <altitud unidad="m">99</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">140.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Port de Barx</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.309736</longitud>
+                <latitud unidad="grados">39.025018</latitud>
+                <altitud unidad="m">323</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">149.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>La Drova</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.292411</longitud>
+                <latitud unidad="grados">39.006920</latitud>
+                <altitud unidad="m">368</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">146.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Gandía</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.201007</longitud>
+                <latitud unidad="grados">38.971893</latitud>
+                <altitud unidad="m">42</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">158.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.181381</longitud>
+                <latitud unidad="grados">38.994438</latitud>
+                <altitud unidad="m">21</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">161.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <nombre_punto>Xeraco</nombre_punto>
+            <coordenadas>
+                <longitud unidad="grados">-0.219521</longitud>
+                <latitud unidad="grados">39.036231</latitud>
+                <altitud unidad="m">13</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">166.0</distancia_salida>
+        </punto_anonimo>
+        <punto_anonimo>
+            <coordenadas>
+                <longitud unidad="grados">-0.194870</longitud>
+                <latitud unidad="grados">39.047932</latitud>
+                <altitud unidad="m">4</altitud>
+            </coordenadas>
+            <distancia_salida unidad="km">168.0</distancia_salida>
+        </punto_anonimo>
+    </puntos_anonimos>
+
+    <clasificacion_etapa>
+        <clasificado>
+            <posicion>1</posicion>
+            <corredor>B. Coquard</corredor>
+            <tiempo>03:47:06</tiempo>
+        </clasificado>
+        <clasificado>
+            <posicion>2</posicion>
+            <corredor>M. Pedersen</corredor>
+            <diferencia>+00:00:00</diferencia>
+        </clasificado>
+        <clasificado>
+            <posicion>3</posicion>
+            <corredor>J. Meeus</corredor>
+            <diferencia>+00:00:00</diferencia>
+        </clasificado>
+    </clasificacion_etapa>
+
+    <clasificacion_general>
+        <clasificado>
+            <posicion>1</posicion>
+            <corredor>E. Mas</corredor>
+            <tiempo>23:23:33</tiempo>
+        </clasificado>
+        <clasificado>
+            <posicion>2</posicion>
+            <corredor>P. Roglic</corredor>
+            <diferencia>+00:01:00</diferencia>
+        </clasificado>
+        <clasificado>
+            <posicion>3</posicion>
+            <corredor>F. Gall</corredor>
+            <diferencia>+00:01:11</diferencia>
+        </clasificado>
+    </clasificacion_general>
+
+    <clasificacion_equipos>
+        <equipo>
+            <posicion>1</posicion>
+            <nombre_equipo>Decathlon CMA CGM Team</nombre_equipo>
+            <tiempo>70:22:47</tiempo>
+        </equipo>
+        <equipo>
+            <posicion>2</posicion>
+            <nombre_equipo>Team Visma | Lease a Bike</nombre_equipo>
+            <diferencia>+00:20:35</diferencia>
+        </equipo>
+        <equipo>
+            <posicion>3</posicion>
+            <nombre_equipo>Netcompany Ineos Cycling Team</nombre_equipo>
+            <diferencia>+00:25:25</diferencia>
+        </equipo>
+    </clasificacion_equipos>
+</etapa>

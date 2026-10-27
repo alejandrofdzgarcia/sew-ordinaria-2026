@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1000" height="600">
+  <text x="94.0" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Puçol</text>
+  <text x="105.69590643274853" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Masamagrell</text>
+  <text x="112.71345029239765" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Albalat dels Sorells</text>
+  <text x="133.67251461988303" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Meliana</text>
+  <text x="160.4327485380117" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Moncada</text>
+  <text x="219.3801169590643" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Náquera</text>
+  <text x="251.19298245614038" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Bétera</text>
+  <text x="311.54385964912285" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Riba-roja de Túria</text>
+  <text x="390.140350877193" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Cheste</text>
+  <text x="481.8362573099416" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Montserrat</text>
+  <text x="571.1929824561403" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Carlet</text>
+  <text x="636.6900584795321" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Algemesí</text>
+  <text x="664.7602339181286" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Alzira</text>
+  <text x="744.2923976608188" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Simat de la Valldigna</text>
+  <text x="777.0409356725146" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">La Drova</text>
+  <text x="791.0760233918129" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Puerto Montaña</text>
+  <text x="791.0760233918129" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Port de Barx</text>
+  <text x="833.1812865497076" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Gandía</text>
+  <text x="870.6081871345028" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Xeraco</text>
+  <text x="894.0" y="410" fontFamily="Verdana" fontSize="14" style="writing-mode: tb; glyph-orientation-vertical: 0;">Xeraco</text>
+  <polyline stroke-width="3" points="100,400 100.0,390.03085687158796 111.69590643274853,390.03085687158796 118.71345029239765,386.47044861144076 123.39181286549707,388.6066935675291 128.0701754385965,387.89461191549964 139.67251461988303,390.7429385236174 146.78362573099415,394.30334678376454 165.4970760233918,380.7737953952053 166.4327485380117,375.7892238309993 207.60233918128654,348.73012105388085 225.3801169590643,273.249465938761 257.1929824561404,335.2005696653216 317.54385964912285,338.04889627343937 396.140350877193,238.35746498931877 487.8362573099416,282.5065274151436 577.1929824561403,361.54759079041065 623.9766081871345,375.7892238309993 642.6900584795321,389.3187752195585 670.7602339181286,387.89461191549964 750.2923976608188,365.1079990505578 754.9707602339181,329.50391644908615 783.0409356725146,137.9539520531688 797.0760233918129,127.27272727272731 797.0760233918129,169.99762639449324 839.1812865497076,370.0925706147638 853.2163742690059,385.04628530738194 876.6081871345028,390.7429385236174 885.9649122807017,397.15167339188224 900.0,397.15167339188224 900,400 100,400" stroke="red" fill="none" />
+</svg>

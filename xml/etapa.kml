@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Salida: Puçol</name>
+      <description>Punto de Salida de la etapa</description>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.319709,39.588701,14</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 1: Masamagrell</name>
+      <description>Punto intermedio (2.5 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.328728,39.567541,14</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 2: Albalat dels Sorells</name>
+      <description>Punto intermedio (4.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.342147,39.543189,19</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 3</name>
+      <description>Punto intermedio (5.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.343387,39.537747,16</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 4</name>
+      <description>Punto intermedio (6.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.347796,39.539459,17</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 5: Meliana</name>
+      <description>Punto intermedio (8.48 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.347483,39.528498,13</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 6</name>
+      <description>Punto intermedio (10.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.349788,39.522412,8</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 7</name>
+      <description>Punto intermedio (14.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.372059,39.538672,27</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 8: Moncada</name>
+      <description>Punto intermedio (14.2 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.388910,39.548723,34</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 9</name>
+      <description>Punto intermedio (23.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.395811,39.597663,72</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 10: Náquera</name>
+      <description>Punto intermedio (26.8 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.429511,39.646227,178</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 11: Bétera</name>
+      <description>Punto intermedio (33.6 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.458373,39.592804,91</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 12: Riba-roja de Túria</name>
+      <description>Punto intermedio (46.5 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.565530,39.547915,87</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 13: Cheste</name>
+      <description>Punto intermedio (63.3 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.691034,39.494917,227</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 14: Montserrat</name>
+      <description>Punto intermedio (82.9 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.603141,39.357900,165</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 15: Carlet</name>
+      <description>Punto intermedio (102.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.522389,39.232844,54</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 16</name>
+      <description>Punto intermedio (112.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.472922,39.251663,34</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 17: Algemesí</name>
+      <description>Punto intermedio (116.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.439449,39.195053,15</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 18: Alzira</name>
+      <description>Punto intermedio (122.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.437718,39.144720,17</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 19: Simat de la Valldigna</name>
+      <description>Punto intermedio (139.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.311654,39.046010,49</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 20</name>
+      <description>Punto intermedio (140.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.303035,39.032900,99</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 21: Port de Barx</name>
+      <description>Punto intermedio (149.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.309736,39.025018,323</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 22: La Drova</name>
+      <description>Punto intermedio (146.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.292411,39.006920,368</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 23: Gandía</name>
+      <description>Punto intermedio (158.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.201007,38.971893,42</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 24</name>
+      <description>Punto intermedio (161.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.181381,38.994438,21</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 25: Xeraco</name>
+      <description>Punto intermedio (166.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.219521,39.036231,13</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 26</name>
+      <description>Punto intermedio (168.0 km)</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.194870,39.047932,4</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerto de Montaña (2a)</name>
+      <description>Puerto categoría 2a - 149.0 km</description>
+      <Style>
+        <IconStyle>
+          <color>ff00ff00</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.278576,39.002396,383</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meta: Xeraco</name>
+      <description>Punto de Llegada/Meta de la etapa</description>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-0.189943,39.038874,4</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <name>Ruta - Puçol a Xeraco</name>
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>-0.319709,39.588701,14
+-0.328728,39.567541,14
+-0.342147,39.543189,19
+-0.343387,39.537747,16
+-0.347796,39.539459,17
+-0.347483,39.528498,13
+-0.349788,39.522412,8
+-0.372059,39.538672,27
+-0.388910,39.548723,34
+-0.395811,39.597663,72
+-0.429511,39.646227,178
+-0.458373,39.592804,91
+-0.565530,39.547915,87
+-0.691034,39.494917,227
+-0.603141,39.357900,165
+-0.522389,39.232844,54
+-0.472922,39.251663,34
+-0.439449,39.195053,15
+-0.437718,39.144720,17
+-0.311654,39.046010,49
+-0.303035,39.032900,99
+-0.309736,39.025018,323
+-0.292411,39.006920,368
+-0.201007,38.971893,42
+-0.181381,38.994438,21
+-0.219521,39.036231,13
+-0.194870,39.047932,4
+-0.189943,39.038874,4</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>ff0000ff</color>
+          <width>5</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Alejandro Fernández García" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace al icono-->
+    <link rel="icon" href="multimedia/favicon.ico" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Información meteorológica">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de la carrera">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos interactivos de la carrera" aria-current="page">Juegos</a>
+            <a href="ayuda.html" title="Ayuda sobre la navegación del sitio">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>&gt;&gt;</li>
+            <li>Juegos</li>
+        </ol>
+    </nav>
+    <main>
+        <h2>Juegos</h2>
+    <!-- contenido de juegos.html  -->
+    <h3>¿Conoces la etapa?</h3>
+    <p>
+        Este juego consiste en responder a un cuestionario de 10 preguntas sobre la información de la etapa.
+        Toda la información necesaria para responder correctamente a las preguntas se encuentra en la sección <a href="etapa.html" title="Información sobre la etapa">Etapa</a> del sitio web.
+    </p>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Puçol a Xeraco</legend>
+            <p>
+                <label for="numero-etapa">¿Cuál es el número de esta etapa?</label>
+                <input type="number" id="numero-etapa" name="numero-etapa" min="1" max="21" />
+            </p>
+            <p>
+                <label for="fecha-etapa">¿En qué fecha se celebra la etapa?</label>
+                <input type="date" id="fecha-etapa" name="fecha-etapa" min="2026-01-01" max="2026-12-31" />
+            </p>
+            <p>
+                <label for="salida-etapa">¿Cuál es la ciudad o lugar de salida de la etapa?</label>
+                <select id="salida-etapa" name="salida-etapa" required>
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="Alicante">Alicante</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Bilbao">Bilbao</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Gijón">Gijón</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Málaga">Málaga</option>
+                    <option value="Murcia">Murcia</option>
+                    <option value="Oviedo">Oviedo</option>
+                    <option value="Puçol">Puçol</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Xeraco">Xeraco</option>
+                    <option value="Zaragoza">Zaragoza</option>
+                </select>
+            </p>
+            <p>
+                <label for="llegada-etapa">¿Cuál es la ciudad o lugar de llegada de la etapa?</label>
+                <select id="llegada-etapa" name="llegada-etapa" required>
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="Alicante">Alicante</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Bilbao">Bilbao</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Gijón">Gijón</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Málaga">Málaga</option>
+                    <option value="Murcia">Murcia</option>
+                    <option value="Oviedo">Oviedo</option>
+                    <option value="Puçol">Puçol</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Xeraco">Xeraco</option>
+                    <option value="Zaragoza">Zaragoza</option>
+                </select>
+            </p>
+            <p>Seleccione el tipo de etapa:</p>
+            <p>
+                <input type="radio" id="tipo-llana" name="tipo-etapa" value="llana" />
+                <label for="tipo-llana">Llana</label>
+            </p>
+            <p>
+                <input type="radio" id="tipo-media-montana" name="tipo-etapa" value="media-montana" />
+                <label for="tipo-media-montana">Media montaña</label>
+            </p>
+            <p>
+                <input type="radio" id="tipo-montana" name="tipo-etapa" value="montana" />
+                <label for="tipo-montana">Montaña</label>
+            </p>
+            <p>
+                <input type="radio" id="tipo-cri" name="tipo-etapa" value="contrarreloj-individual" />
+                <label for="tipo-cri">Contrarreloj individual</label>
+            </p>
+            <p>
+                <input type="radio" id="tipo-cre" name="tipo-etapa" value="contrarreloj-equipos" />
+                <label for="tipo-cre">Contrarreloj por equipos</label>
+            </p>
+            <p>Seleccione los hitos presentes en la etapa:</p>
+            <p>
+                <input type="checkbox" id="hito-puerto" name="hitos" value="puerto-montana" />
+                <label for="hito-puerto">Puerto de montaña</label>
+            </p>
+            <p>
+                <input type="checkbox" id="hito-puerto-especial" name="hitos" value="puerto-categoria-especial" />
+                <label for="hito-puerto-especial">Puerto categoría especial</label>
+            </p>
+            <p>
+                <input type="checkbox" id="hito-sprint-intermedio" name="hitos" value="sprint-intermedio" />
+                <label for="hito-sprint-intermedio">Sprint intermedio</label>
+            </p>
+            <p>
+                <input type="checkbox" id="hito-sprint-bonificado" name="hitos" value="sprint-bonificado" />
+                <label for="hito-sprint-bonificado">Sprint bonificado</label>
+            </p>
+            <p>
+                <input type="checkbox" id="hito-sin-hitos" name="hitos" value="sin-hitos" />
+                <label for="hito-sin-hitos">Sin hitos</label>
+            </p>
+            <p>
+                <label for="dureza-etapa">Valore la dureza de la etapa (del 1 al 10):</label>
+                <input type="range" id="dureza-etapa" name="dureza-etapa" min="1" max="10" value="5" />
+            </p>
+            <p>
+                <label for="longitud-etapa">¿Cuál es la longitud de la etapa (en km)?</label>
+                <input type="number" id="longitud-etapa" name="longitud-etapa" min="0" step="0.1" />
+            </p>
+            <p>
+                <label for="desnivel-etapa">¿Cuál es el desnivel acumulado de la etapa (en metros)?</label>
+                <input type="number" id="desnivel-etapa" name="desnivel-etapa" min="0" step="1" />
+            </p>
+            <p>
+                <label for="descripcion-etapa">Escriba una breve descripción de la etapa:</label>
+                <textarea id="descripcion-etapa" name="descripcion-etapa" rows="4" cols="50"></textarea>
+            </p>
+            <p>
+                <label for="nombre-participante">Nombre del participante:</label>
+                <input type="text" id="nombre-participante" name="nombre-participante" required />
+            </p>
+            <p>
+                <button type="submit">Enviar respuestas</button>
+            </p>
+        </fieldset>
+    </form>
+    </main>
+
+    <footer>
+        <p>Alejandro Fernández García</p>
+        <address>
+            <a href="mailto:UO295813@uniovi.es">UO295813@uniovi.es</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>

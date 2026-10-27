@@ -1,0 +1,180 @@
+/* ***************************************/
+/*           LaVuelta2026                */
+/*          Estilos layout               */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Alejandro Fernández García */
+/*  Correo electrónico (uniovi): UO295813@uniovi.es */
+/*  Grupo de laboratorio:      L7          */
+/* ***************************************/
+
+/* Especificidad: 001 */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+        "cabecera"
+        "migas"
+        "contenido"
+        "pie";
+}
+
+/* Especificidad: 001 */
+header {
+    grid-area: cabecera;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 0.5em 1em;
+}
+
+/* Especificidad: 002 */
+header h1 {
+    margin: 0;
+}
+
+/* Especificidad: 002 */
+header nav {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+/* Especificidad: 002 */
+header+nav {
+    grid-area: migas;
+}
+
+/* Especificidad: 001 */
+main {
+    grid-area: contenido;
+}
+
+/* Especificidad: 001 */
+footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1em;
+}
+
+/* Especificidad: 002 */
+footer p {
+    margin: 0;
+}
+
+/* Especificidad: 002 */
+section:has(picture) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Especificidad: 003 */
+section:has(picture)>h3 {
+    flex-basis: 100%;
+}
+
+/* Especificidad: 003 */
+section:has(picture)>picture {
+    order: 1;
+}
+
+/* Especificidad: 003 */
+section:has(picture)>ul {
+    order: 2;
+    list-style: none;
+}
+
+/* Especificidad: 002 */
+section:has(video) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Especificidad: 002 */
+section:has(article) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+/* Especificidad: 003 */
+section:has(article)>h3 {
+    grid-column: 1 / -1;
+}
+
+/* Especificidad: 001 */
+table {
+    margin: 1em 0;
+}
+
+/* Especificidad: 001 */
+caption {
+    margin-bottom: 0.5em;
+}
+
+/* Especificidad: 001, 001 */
+th,
+td {
+    padding: 0.6em 1em;
+}
+
+/* =====================================================
+ * Media Query para tabletas (ancho <= 1024px)
+ * ===================================================== */
+@media (max-width: 1024px) {
+
+    /* Especificidad: 001 */
+    header {
+        flex-direction: column;
+    }
+
+    /* Especificidad: 002 */
+    header nav {
+        width: 100%;
+    }
+
+    /* Especificidad: 003 */
+    header nav a {
+        flex: 1;
+        text-align: center;
+    }
+
+    /* Especificidad: 002 */
+    header+nav {
+        display: none;
+    }
+
+    /* Especificidad: 002 */
+    section:has(article) {
+        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+}
+
+/* =====================================================
+ * Media Query para dispositivos móviles (ancho <= 768px)
+ * ===================================================== */
+@media (max-width: 768px) {
+
+    /* Especificidad: 002 */
+    header nav {
+        flex-direction: column;
+    }
+
+    /* Especificidad: 002 */
+    section:has(article) {
+        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+}

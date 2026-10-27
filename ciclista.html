@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Ciclista</title>
+
+    <meta name="author" content="Alejandro Fernández García" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace al icono-->
+    <link rel="icon" href="multimedia/favicon.ico" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
+        <nav>
+            <a href="index.html" title="Página principal de LaVuelta2026">Inicio</a>
+            <a href="ciclista.html" title="Información sobre el ciclista" aria-current="page">Ciclista</a>
+            <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
+            <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Información meteorológica">Meteorología</a>
+            <a href="clasificaciones.html" title="Clasificaciones de la carrera">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos interactivos de la carrera">Juegos</a>
+            <a href="ayuda.html" title="Ayuda sobre la navegación del sitio">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li>&gt;&gt;</li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
+    <main>
+        <h2>Xavier Finlay Xavier Pickering</h2>
+        <section>
+            <h3>Datos personales</h3>
+            <ul>
+                <li>Xavier Finlay Xavier Pickering</li>
+                <li>27 de enero de 2003</li>
+                <li>Reino Unido (GBR)</li>
+                <li>TEAM JAYCO ALULA</li>
+                <li>156</li>
+            </ul>
+            <picture>
+                <!-- Móviles: hasta 768px -->
+                <source media="(max-width: 768px)" srcset="multimedia/pickering_movil.jpg" width="135" height="204" />
+                <!-- Tablets: hasta 1024px -->
+                <source media="(max-width: 1024px)" srcset="multimedia/pickering_tablet.jpg" width="225" height="341" />
+                <!-- Dispositivos de escritorio (superior a tablet) -->
+                <img src="multimedia/pickering.jpg" alt="Fotografía del ciclista Xavier Finlay Xavier Pickering"
+                    width="300" height="455" />
+            </picture>
+        </section>
+        <section>
+            <h3>Datos equipos</h3>
+            <ol>
+                <li>Team Jayco Alula (2026)</li>
+                <li>Bahrain - Victorious (2025)</li>
+                <li>Bahrain - Victorious (2024)</li>
+                <li>Trinity Racing (2023)</li>
+                <li>Equipe continentale Groupama-FDJ (2022)</li>
+                <li>Fensham Howes-MAS Design (2021)</li>
+            </ol>
+        </section>
+        <section>
+            <h3>Resultados</h3>
+            <table>
+                <caption>Resultados del ciclista</caption>
+                <thead>
+                    <tr>
+                        <th scope="col" id="datos">Datos</th>
+                        <th scope="col" id="resultados">Resultados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="podiums" headers="datos">Podiums</th>
+                        <td headers="podiums resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="carreras" headers="datos">Carreras</th>
+                        <td headers="carreras resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="maillots" headers="datos">Maillots</th>
+                        <td headers="maillots resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="equipos" headers="datos">Equipos</th>
+                        <td headers="equipos resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="etapas" headers="datos">Etapas</th>
+                        <td headers="etapas resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="victorias" headers="datos">Victorias</th>
+                        <td headers="victorias resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="top10" headers="datos">Top 10</th>
+                        <td headers="top10 resultados"><!-- Pendiente de rellenar con el dato del ciclista -->-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3>Multimedia</h3>
+            <p>Equipo <a href="https://www.lavuelta.es/es/equipo/JAY/team-jayco-alula"
+                    title="Página oficial del equipo Team Jayco AlUla en La Vuelta">Team Jayco Alula</a> en la Vuelta
+                Ciclista a España 2026.</p>
+
+            <video controls poster="multimedia/alineacion_equipo.jpg">
+                <source src="multimedia/presentacion_jayco.mp4" type="video/mp4" />
+                <source src="multimedia/presentacion_jayco.webm" type="video/webm" />
+                Su navegador no soporta el elemento video
+            </video>
+            <audio controls>
+                <source src="multimedia/historia_jayco_alula.mp3" type="audio/mpeg" />
+                <source src="multimedia/historia_jayco_alula.wav" type="audio/wav" />
+                Su navegador no soporta el elemento audio
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>Alejandro Fernández García</p>
+        <address>
+            <a href="mailto:UO295813@uniovi.es">UO295813@uniovi.es</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
