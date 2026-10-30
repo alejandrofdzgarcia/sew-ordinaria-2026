@@ -142,6 +142,21 @@ td {
     padding: 0.6em 1em;
 }
 
+/* Especificidad: 001 */
+fieldset {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Especificidad: 001, 001, 001 */
+input,
+select,
+textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 /* =====================================================
  * Media Query para tabletas (ancho <= 1024px)
  * ===================================================== */
@@ -198,6 +213,11 @@ td {
 
     /* Especificidad: 003 */
     section:has(video)>audio {
+        width: 100%;
+    }
+
+    /* Especificidad: 001 */
+    textarea {
         width: 100%;
     }
 }
