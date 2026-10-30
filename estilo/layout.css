@@ -101,6 +101,17 @@ section:has(video) {
     align-items: flex-start;
 }
 
+/* Especificidad: 003 */
+section:has(video)>video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Especificidad: 003 */
+section:has(video)>audio {
+    max-width: 100%;
+}
+
 /* Especificidad: 002 */
 section:has(article) {
     display: grid;
@@ -159,7 +170,8 @@ td {
 
     /* Especificidad: 002 */
     section:has(article) {
-        grid-template-columns: repeat(2, 1fr); /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+        grid-template-columns: repeat(2, 1fr);
+        /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
     }
 }
 
@@ -175,6 +187,17 @@ td {
 
     /* Especificidad: 002 */
     section:has(article) {
-        grid-template-columns: 1fr; /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+        grid-template-columns: 1fr;
+        /*ADVERTENCIA: redefinición de la propiedad con valor original repeat(4, 1fr) */
+    }
+
+    /* Especificidad: 003 */
+    section:has(video)>video {
+        width: 100%;
+    }
+
+    /* Especificidad: 003 */
+    section:has(video)>audio {
+        width: 100%;
     }
 }
